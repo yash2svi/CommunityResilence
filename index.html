@@ -1,154 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Javascript and Jquery-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
-        <style>
-            #myCarousel {
-                background-color: transparent;
-            }
-            .carousel-caption {
-                text-align: center;
-                top:50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                max-width: 30%; /* Adjust the maximum width as needed */
-                padding: 1px; /* Adjust the padding as needed */
-                background: rgba(0, 0, 0, 0.5); /* Background color with transparency */
-                color: white; /* Text color */ }
-        </style>
-    <title>Community Resilence </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Payment Gateway</title>
+    <script src="script.jss"></script> 
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar" style="background-color: #3d012c;">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"
-                        style="color: rgb(240, 235, 72); margin-right: 30px; font-weight: bold">Home <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        style="background-color: #3d012c; font-weight: bold; margin-right: 30px;  border: none; color: yellow; ">
-                        About
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="admin.html">Admission</a>
-                        <a class="dropdown-item" href="donate.html">Donate</a>
-                        <a class="dropdown-item" href="emergency.html">Emergency contacts</a>
-                        <a class="dropdown-item" href="shelter.html">Temporary shelter</a>
-                        <a class="dropdown-item" href="Medical.html">Medical Aid</a>
+    <div class="container" style="margin: 70px; ">
+        <div class="row" >
+            <div class="col-lg-6 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <div class="img-box">
+                        <img src="https://www.freepnglogos.com/uploads/visa-logo-download-png-21.png" alt="" height="50px">
+                    </div>
+                    <div class="number">
+                        <label class="fw-bold" for="">**** **** **** 1060</label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                        <small><span class="fw-bold">Name:</span><span>Kumar</span></small>
                     </div>
                 </div>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="signup.html"
-                        style="color: rgb(240, 235, 72); margin-right: 30px; font-weight: bold">Signup</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Sosbutton.html"
-                        style="color: rgb(240, 235, 72); margin-right: 30px; font-weight: bold">SOS button</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Support.html"
-                        style="color: rgb(240, 235, 72); margin-right: 30px; font-weight: bold">Community support</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                        style="color: rgb(240, 235, 72); margin-right: 30px; font-weight: bold">Visualization</a>
-                </li>
-               
-            </ul>
+            </div>
+            <div class="col-lg-6 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <div class="img-box">
+                        <img src="https://www.freepnglogos.com/uploads/discover-png-logo/credit-cards-discover-png-logo-4.png"
+                            alt="" height="50px">
+                    </div>
+                    <div class="number">
+                        <label class="fw-bold">**** **** **** 1060</label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                        <small><span class="fw-bold">Name:</span><span>Kumar</span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card p-3">
+                    <p class="mb-0 fw-bold h4">Payment Methods</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card p-3">
+                    <div class="card-body border p-0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <!-- Card Information -->
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">Card Number</label>
+                                </div>
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">MM / YY</label>
+                                </div>
+                                <div class="form__div">
+                                    <input type="password" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">CVV Code</label>
+                                </div>
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">Name on the Card</label>
+                                </div>
+                                <!-- Add more card-related fields as needed -->
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- Donation Information -->
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">Name of Donor</label>
+                                </div>
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">Donated Amount</label>
+                                </div>
+                                <div class="form__div">
+                                    <input type="text" class="form-control" placeholder=" ">
+                                    <label for="" class="form__label">Address</label>
+                                </div>
+                                <!-- Add more donation-related fields as needed -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn btn-primary payment">
+                    Make Payment
+                </div>
+            </div>
         </div>
-        <div id="google_translate_element"></div>
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-            { 
-                pageLanguage: 'en',  // Set the default language of your website
-                autoDisplay: false,   // Disable the automatic language selection dropdown
-                includedLanguages: 'es,hi,de',  // Specify the languages you want to offer for translation
-            },
-            'google_translate_element'
-        );
-    }
-</script>
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-       
-    </nav>
-    <!-- Navbar content -->
-    </nav>
-    <!--Image slider insertion-->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/07/10/747754-ndrf.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block" style="font: size 40px; font-weight:bold;">
-                <h5>Mumbai Braces for Monsoon Fury: Torrential Rains Trigger Widespread Flooding</h5>
-                <p>Heavy monsoon rains have led to severe flooding in various parts of Mumbai, disrupting daily life and prompting massive rescue operations.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="https://img.freepik.com/premium-photo/after-disaster-search-rescue-through-building-rubble-generate-ai_905417-5219.jpg?size=626&ext=jpg"  class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Rescue Teams Mobilize: Heroic Efforts to Save Lives in Earthquake Aftermath</h5>
-                <p>Dedicated rescue teams spring into action, working around the clock to locate survivors trapped in the rubble and provide medical aid.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="https://thumbs.dreamstime.com/b/building-emergency-disaster-21776352.jpg?w=768" class="d-block w-100" alt="..." >
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Nepal Rattled by Earthquake: Tremors Strike Major Cities</h5>
-                <p>Nepal experiences a powerful earthquake, with tremors felt in major cities, sparking immediate rescue operations.</p>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-<script>
-    var myCarousel = new bootstrap.Carousel(document.getElementById('myCarousel'),{interval: 4000 });
-</script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
