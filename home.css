@@ -1,0 +1,73 @@
+#logo{
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+  body{
+      background-image: url("background.jpg");
+      background-size: cover; 
+  }
+  
+ .plumber , .cyclone , .earthquake , .flood , .flashwire{
+    width: 290px;
+    margin: 10px;
+    padding: 9px;
+ }
+
+.container {
+    display: flex;
+}
+  
+.plumber:hover , .cyclone:hover , .earthquake:hover , .flood:hover , .flashwire:hover{
+    background-color: rgba(234, 164, 225, 0.818);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .container:active{
+    transform: scale(0.95);
+    transition: all 0.2s ease-in-out;
+  
+  }
+  
+   a:link {
+      color: rgb(163, 219, 224);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+  a:visited {
+      color: rgb(147, 150, 243);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  
+  .footer{
+    margin-top: 80px;
+    line-height: 1;
+    color: #80778e;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(85, 64, 177);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    }
+  
+    .footer a{
+      color: white;
+      text-decoration: none;
+    }
+
+    .naming{
+        display: flex;
+    }
+
+    .name{
+        
+        color: aliceblue;
+    }
+  
+    
