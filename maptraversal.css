@@ -1,0 +1,28 @@
+.button{
+    text-align: center;
+    border: 1px solid aliceblue;;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 110px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.button:hover{
+    background-image: url(background2.jpeg);
+    background-size: cover;
+    font-weight: bold;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
