@@ -1,77 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
-    <link rel="stylesheet" href="signup.css" type="text/css">
-    
+    <link rel="stylesheet" href="signup.css">
+    <title>Registration Form</title>
 </head>
 <body>
-    <div CLASS="LOGO">
-        <center><br><br><img src="LOGO.png"></center><br>
-    </div>
-    <center>
-    <div class="main">
-    <div class="container">
-        <div class="actionBtns">
-            <button class="moveBtn">SIGN IN</button>
-        <button class="actionBtn SigninBtn" onclick="toggleForm('signin')">SIGN IN</button>
-        
-        <button class="actionBtn SignupBtn" onclick="toggleForm('signup')">SIGN UP</button>
-
-            
-            
-        </div>
-        <script src="signup.js">
-        toggleForm('signup');
-        </SCRIPT>
-        
-        <form action="index.php" class="form" id="signin">
-            <input type="text" placeholder="Name" id="user"><br/><br>
-            <input type="text" placeholder="Contact number" id="user"><br/><br>
-            <textarea name="Address" placeholder="Address" id="user"></textarea><br/><br>
-            <input type="text" placeholder="username" id="user"><br/><br>
-            <input type="password" placeholder="password" id="user"><br/><br>
-            <input type="password" placeholder="confirm password" id="user"><br/><br>
-            <input type="button" value="Submit" id="submit" onclick="window.open('index.html','_self')"><br><br>
-            
-        </form>
-    
-
-        <form action="connect.php" class="form" id="signup">
-            
-            <input type="text" placeholder="Name" id="user"><br/><br>
-            <!-- <input type="text" name="occupation" id="user"> -->
-            <input type="text" placeholder="Contact number" id="user"><br/><br>
-            <textarea name="Address" placeholder="Address" id="user"></textarea><br/><br>
-            <input type="text" placeholder="aadhar number" id="user"><br/><br>
-            <input type="text" placeholder="username" id="user"><br/><br>
-            <input type="password" placeholder="password" id="user"><br/><br>
-            <input type="password" placeholder="confirm password" id="user"><br/><br>
-            <input type="button" value="Submit" id="submit" onclick="window.open('connect.html','_self')"><br><br>
-            
+    <div class="reg-form">
+        <form action="" class="form">
+            <div class="form-group">
+                <div class="title">
+                    <h1>Get Started</h1>
+                </div>
+                <div class="form-input">
+                    <input class="floating-input" type="text" placeholder="" required>
+                    <label for="" class="floating-label">Name</label>
+                </div>
+                <div class="form-input">
+                    <input class="floating-input" type="email" placeholder="" required>
+                    <label for="" class="floating-label">Email</label>
+                </div>
+                <div class="form-input">
+                    <input class="floating-input" type="password" placeholder="" required>
+                    <label for="" class="floating-label">Password</label>
+                </div>
+                <div class="term-and-condition">
+                    <input type="checkbox" class="radio-input" id="tandc" required>
+                    <label for="tandc" class="radio-label">
+                        I agree to the <span>Terms of Service</span> and <span>Privacy Policy</span>
+                    </label>
+                </div>
+                <div class="action-btn">
+                    <button class="btn-reg" type="submit">Sign Up</button>
+                </div>
+                <div class="login-redirect">
+                    Already a member? <a href="#">Login</a>
+                </div>
+            </div>
         </form>
     </div>
-    </div>
-    </center>
-    
-     
 </body>
 </html>
-
-<style>
-a:link {
-    color: rgb(111, 123, 184);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-a:visited {
-    color: rgb(218, 198, 234);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-</style>

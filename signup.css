@@ -1,145 +1,115 @@
-body{
-    background-image: url("background.png");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.reg-form {
+    display: flex;
+    height: 100vh;
+    background-image: url(background.jpg);
     background-size: cover;
-    background-position: 0px 0px;
 }
 
-.main{
-    width: 400px;
-    margin: 220px auto 0px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.LOGO{
-    display:contents;
-    width: 200px;
-    height: 200px;
-    padding: 0px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+.form {
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid aliceblue;
+    border-radius: 0.5rem;
+    background: transparent right bottom;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(2px 4px 6px #333);
 }
 
-.sign{
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    font-size: 18px;
-    border-radius: 20px;
-    border:1px solid rbga(255,255,255,0.3);
-    /* rgba(0,0,0,0.3); */
-    color:#fff;
-}
-
-.container{
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    font-size: 18px;
-    border-radius: 20px;
-    border:1px solid rbga(255,255,255,0.3);
-    /* rgba(0,0,0,0.3); */
-    color:#fff;
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-}
-
-h2{
+.title, .action-btn {
     text-align: center;
-    padding: 20px;
-}
-
-input#user,select,textarea{
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    outline: 0;
-    padding: 7px;
-    background-color: #fff;
-    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
-}
-/* .img{
-    width: 20px;
-    height: 200px;
-    padding: 2px;
-} */
-input#submit
-{
-    text-align: center;
-    width: 100px;
-    padding: 7px;
-    font-size: 16px;
-    font-family: sans-serif;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(177, 174, 158);
+    margin-bottom: 1.25rem;
     color: #fff;
-    cursor: pointer;
-    border: 1px solid;
-    /* rgba(255,255,255,.3); */
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
-    transition: all 0.3s ease-in-out;
 }
 
-.submit:hover{
-    transition: all 0.3s ease-in-out;
-}
-
-.actionBtns{
-    width: 80%;
-    background-color: rgba(177, 174, 158);
-    border: none;
-    outline: none;
-    margin: 2em;
-    display: flex;
-    justify-content: space-between;
+.form-input {
+    width: 18.75rem;
+    padding: 1.25rem;
     position: relative;
-    border-radius: 50px;
-    text-align: center;
 }
 
-.actionBtn{
-    padding: 1em;
-    width: 50%;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 0.8em;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center;
-}
-
-.moveBtn{
+.floating-label {
+    font-size: 13px;
     position: absolute;
-    width: 50%;
-    height: 90%;
-    margin: 2px;
-    border: none;
-    outline: none;
-    border-radius: 50px;
-    background-color: #fff;
-    font-size: 0.8em;
+    left: 25px;
+    top: 26px;
+    pointer-events: none;
+    padding: 0 0.25rem;
+    background: #0a0a0a;
+    color: #ccc;
+    transition: 0.3s ease all;
+}
+
+.floating-input {
+    font-size: 13px;
     font-weight: 600;
-    transform: translateX(0);
-    transition: all 0.2s ease-in-out;
-}
-
-.rightBtn{
-    transform: translateX(98%);
-    transition: all 0.2s ease-in-out;
-}
-
-.form{
-    display: none;
-}
-
-.clientForm{
     display: block;
+    width: 100%;
+    height: 2.25rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    border: 1px solid #272727;
+    border-radius: 6px;
+    background: #0a0a0a;
+    color: #ccc;
+    outline: none;
 }
 
-.workerForm{
-    display: block;
+.floating-input:focus {
+    border: 1px solid #c27a27;
+}
+
+.floating-input:focus + .floating-label,
+.floating-input:not(:placeholder-shown) + .floating-label {
+    top: 9px;
+    font-size: 11px;
+    color: #c27a27;
+}
+
+.term-and-condition {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.term-and-condition span {
+    color: #c27a27;
+    cursor: pointer;
+}
+
+.radio-input {
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.btn-reg {
+    height: 2rem;
+    padding: 0 0.75rem;
+    border-radius: 6px;
+    line-height: 1.6;
+    margin-top: 1.25rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: #c27a27;
+    color: #fff;
+}
+
+.btn-reg:hover {
+    background: #0a0a0a;
+    border: 1px solid #c27a27;
+    transition: 0.3s ease all;
+}
+
+.login-redirect {
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-redirect a {
+    color: #7ad22a;
 }
