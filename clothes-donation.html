@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clothes-donation.css">
+    <title>Clothes Donation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Donate Clothes</h1>
+        <img src="images/clothes.jpg" alt="Clothes Donation" class="clothes-image">
+        <p>Select the clothes you want to donate:</p>
+        <form id="clothesDonationForm">
+            <label class="donation-option">
+                <input type="checkbox" name="clothesItem" value="shirt">
+                <img src="images/shirt.png" alt="Shirt">
+                Shirt
+            </label>
+            <label class="donation-option">
+                <input type="checkbox" name="clothesItem" value="pant">
+                <img src="images/pant.png" alt="Pant">
+                Pant
+            </label>
+            <label class="donation-option">
+                <input type="checkbox" name="clothesItem" value="saree">
+                <img src="images/saree.png" alt="Saree">
+                Saree
+            </label>
+            <label class="donation-option">
+                <input type="checkbox" name="clothesItem" value="others">
+                <img src="images/others.png" alt="Others">
+                Others
+            </label>
+            <button type="button" id="clothesDonateButton">Donate</button>
+        </form>
+    </div>
+    <script src="clothes-donation.js"></script>
+</body>
+</html>

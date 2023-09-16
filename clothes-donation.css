@@ -1,0 +1,68 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the clothes image */
+.clothes-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style for the clothes options */
+.donation-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Style for the clothes option images */
+.donation-option img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the clothes option labels */
+label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Style for the Donate button */
+button#clothesDonateButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for the Donate button on hover */
+button#clothesDonateButton:hover {
+    background-color: #0056b3;
+}
