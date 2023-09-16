@@ -1,0 +1,145 @@
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.main{
+    width: 400px;
+    margin: 220px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LOGO{
+    display:contents;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 20px;
+    border:1px solid rbga(255,255,255,0.3);
+    /* rgba(0,0,0,0.3); */
+    color:#fff;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 20px;
+    border:1px solid rbga(255,255,255,0.3);
+    /* rgba(0,0,0,0.3); */
+    color:#fff;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+input#user,select,textarea{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+/* .img{
+    width: 20px;
+    height: 200px;
+    padding: 2px;
+} */
+input#submit
+{
+    text-align: center;
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(177, 174, 158);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    /* rgba(255,255,255,.3); */
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.submit:hover{
+    transition: all 0.3s ease-in-out;
+}
+
+.actionBtns{
+    width: 80%;
+    background-color: rgba(177, 174, 158);
+    border: none;
+    outline: none;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.actionBtn{
+    padding: 1em;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.moveBtn{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.rightBtn{
+    transform: translateX(98%);
+    transition: all 0.2s ease-in-out;
+}
+
+.form{
+    display: none;
+}
+
+.clientForm{
+    display: block;
+}
+
+.workerForm{
+    display: block;
+}
