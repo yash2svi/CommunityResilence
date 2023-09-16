@@ -12,15 +12,24 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleDonateButtonClick() {
         const selectedDonationType = getSelectedDonationOption();
 
-        if (selectedDonationType === 'money') {
-            // Redirect to the payment gateway with the selected donation type
-            window.location.href = `payment.html?donationType=${selectedDonationType}`;
-        } else if (selectedDonationType === 'food') {
-            // Redirect to the food donation page
-            window.location.href = 'food-donation.html';
+        if (selectedDonationType) {
+            if (selectedDonationType === 'money') {
+                // Redirect to "payment.html" when "Money" is selected
+                window.location.href = 'payment.html';
+            } else if (selectedDonationType === 'food') {
+                // Redirect to "food-donation.html" when "Food" is selected
+                window.location.href = 'food-donation.html';
+            } else if (selectedDonationType === 'clothes') {
+                // Redirect to "clothes-donation.html" when "Clothes" is selected
+                window.location.href = 'clothes-donation.html';
+            } else if (selectedDonationType === 'shelter') {
+                // Redirect to "payment.html" when "Shelter" is selected
+                window.location.href = 'payment.html';
+            } else {
+                alert('Invalid donation option.');
+            }
         } else {
-            // Handle other donation types (e.g., clothes, shelter)
-            // You can add custom logic or leave it empty for the default behavior
+            alert('Please select a donation option.');
         }
     }
 
