@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donation.css">
+    <title>Donation Page</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="donation-heading">Donation</h1> <!-- Updated heading here -->
+    </div>
+    <div class="container">
+        <div class="content-box"> <!-- Existing code for the black box -->
+            <h1>Select what you want to donate:</h1>
+            <label class="donation-option">
+                <input type="radio" name="donationType" value="food">
+                <img src="images/food.png" alt="Food Donation">
+                Food
+            </label>
+            <label class="donation-option">
+                <input type="radio" name="donationType" value="clothes">
+                <img src="images/clothes.png" alt="Clothes Donation">
+                Clothes
+            </label>
+            <label class="donation-option">
+                <input type="radio" name="donationType" value="shelter">
+                <img src="images/shelter.png" alt="Shelter Donation">
+                Shelter
+            </label>
+            <label class="donation-option">
+                <input type="radio" name="donationType" value="money">
+                <img src="images/money.png" alt="Money Donation">
+                Money
+            </label>
+            <button type="button" id="donateButton">Donate</button>
+        </div>
+    </div>
+
+    <script src="donation.js"></script>
+</body>
+</html>
