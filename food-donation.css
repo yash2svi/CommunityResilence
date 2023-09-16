@@ -1,0 +1,69 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    background-image: url('images/background.jpg'); /* Updated background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+/* Style for the food images */
+.food-image {
+    max-width: 100%;
+    max-height: 150px; /* Set a maximum height as needed */
+    width: auto;
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between images */
+}
+
+/* Style for labels */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white; /* Make the text white */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style for the Confirm button */
+button#confirmButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for the Confirm button on hover */
+button#confirmButton:hover {
+    background-color: #0056b3;
+}

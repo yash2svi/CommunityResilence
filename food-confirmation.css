@@ -1,0 +1,66 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the images container */
+.images-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for each image container */
+.image-container {
+    flex-basis: 48%; /* Adjust width as needed */
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style for the centre image */
+.centre-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the home image */
+.home-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the buttons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for the buttons on hover */
+button:hover {
+    background-color: #0056b3;
+}

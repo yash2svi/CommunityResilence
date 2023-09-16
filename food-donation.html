@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food-donation.css">
+    <title>Food Donation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Food Items to Donate:</h1>
+        <form id="foodDonationForm">
+            <label>
+                <input type="checkbox" name="foodItem" value="rice">
+                <img src="images/rice.jpg" alt="Rice" class="food-image">
+                Rice
+            </label>
+            <label>
+                <input type="checkbox" name="foodItem" value="oil">
+                <img src="images/oil.jpg" alt="Oil" class="food-image">
+                Oil
+            </label>
+            <label>
+                <input type="checkbox" name="foodItem" value="fruits">
+                <img src="images/fruits.jpg" alt="Fruits" class="food-image">
+                Fruits
+            </label>
+            <label>
+                <input type="checkbox" name="foodItem" value="others">
+                <img src="images/Others.jpg" alt="Others" class="food-image">
+                Others
+            </label>
+            <button type="button" id="confirmButton">Confirm</button>
+        </form>
+    </div>
+    <script src="food-donation.js"></script>
+</body>
+</html>

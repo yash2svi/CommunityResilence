@@ -1,0 +1,72 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    padding: 20px;
+    color: #fff;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the home image */
+.home-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style for the address form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style for the address input */
+label {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Style for the submit button */
+button#submitButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for the submit button on hover */
+button#submitButton:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the confirmation box */
+#confirmationBox {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Style for the confirmation text */
+#confirmationBox p {
+    font-size: 18px;
+}

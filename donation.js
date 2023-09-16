@@ -15,8 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (selectedDonationType === 'money') {
             // Redirect to the payment gateway with the selected donation type
             window.location.href = `payment.html?donationType=${selectedDonationType}`;
+        } else if (selectedDonationType === 'food') {
+            // Redirect to the food donation page
+            window.location.href = 'food-donation.html';
         } else {
-            // Handle other donation types (e.g., food, clothes, shelter)
+            // Handle other donation types (e.g., clothes, shelter)
             // You can add custom logic or leave it empty for the default behavior
         }
     }
