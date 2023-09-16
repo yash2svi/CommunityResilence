@@ -95,10 +95,27 @@ Sehar is the Sanskrit word depicting a optimism, dawn and a new beginning. Our a
 
 ![TORNADO SAFETY](https://github.com/yash2svi/CommunityResilence/assets/92750234/a775ac19-2f05-49a4-b3a5-5f2f163921e8)
 
+![DONATE](https://github.com/yash2svi/CommunityResilence/assets/92750234/d328b697-60b2-4b84-a88f-b6245cf28567)
 
+![FIRE SAFETY](https://github.com/yash2svi/CommunityResilence/assets/92750234/32264356-dca0-4a02-8924-16a2394815c0)
 
+![NEWS](https://github.com/yash2svi/CommunityResilence/assets/92750234/c8c91590-d68a-498c-9c5c-9c234eb4739b)
 
+![MULTILINNGUAL](https://github.com/yash2svi/CommunityResilence/assets/92750234/74756c90-23dd-47d2-bdbb-7469df647a61)
 
+![FOOD](https://github.com/yash2svi/CommunityResilence/assets/92750234/eee9d9c7-3811-427d-b151-353e4b90c5c7)
+
+![GROCERY](https://github.com/yash2svi/CommunityResilence/assets/92750234/7e58d2e0-9628-4b3e-a3a0-e1b43611dcef)
+
+![DELIVERY](https://github.com/yash2svi/CommunityResilence/assets/92750234/e61598e6-aa86-4999-bfa0-79a10fcd51ee)
+
+![PICK UP](https://github.com/yash2svi/CommunityResilence/assets/92750234/1a7f268a-4967-4e04-b7d7-0c5a1f5909eb)
+
+![CLOTHES](https://github.com/yash2svi/CommunityResilence/assets/92750234/3baa0e91-6cb6-4650-a8c5-4398afb8e559)
+
+![PAYMENT GATEWAY](https://github.com/yash2svi/CommunityResilence/assets/92750234/b404f0e7-13fe-4606-a2d9-bf548ade8ed2)
+
+![PAY](https://github.com/yash2svi/CommunityResilence/assets/92750234/f67a17ed-128c-4975-beca-e780e5a04e66)
 
 
 
