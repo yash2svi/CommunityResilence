@@ -38,22 +38,19 @@ Sehar is the Sanskrit word depicting a optimism, dawn and a new beginning. Our a
 
 
  Features implemented:
-
- -Emergency alert reporting based on location, historical data
- -SOS button having voice as well as video recording
- -Community support group having list of precautionary measures for prevention and mitigation
- -multiple user login: victims, donor, Shelter manager, admin
- -Directory of resources based on map
- -finding nearest rescue center
- -medical assistance - patient report
- -fetching live data from OpenWeather forecast about precipitation, wind speed, seismometer
- -incident report on map to visualize effects of disasters like flooded areas
- -emergency contacts 
- -separate databases for payments, MedicalFacilities, Resources as well as User details
- -multilingual features to include local languages by integrating google translate
- -donation feature having options viz. food, clothes, accomodation as well as monetary funds
- -integrated payment gateway
- -integrated map
+ 1. Emergency alert reporting based on location, historical data
+ 2. SOS button having voice as well as video recording
+ 3. Community support group having list of precautionary measures for prevention and mitigation multiple user login: victims, donor, Shelter manager, admin
+ 4. Directory of resources based on map
+ 5. Finding nearest rescue center -
+ 6. Providing medical assistance - patient report
+ 7. Fetching live data from OpenWeather forecast about precipitation, wind speed, seismometer
+ 8. Incident report on map to visualize effects of disasters like flooded areas emergency contacts 
+ 9. Separate databases for payments, MedicalFacilities, Resources as well as User details
+10. Multilingual features to include local languages by integrating google translate
+11. Donation feature having options viz. food, clothes, accomodation as well as monetary funds
+12.Integrated payment gateway
+13.Integrated map
 -----------------------------------------------------------------------------------------------------------------
                                                  output screenshots
 ![SIGNIN-SIGNUP](https://github.com/yash2svi/CommunityResilence/assets/92750234/884161ce-5bc9-4bc2-8fb1-693ee87bf469)
